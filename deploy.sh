@@ -17,9 +17,9 @@ git add -A
 git commit -m 'deploy'
 
 # если вы публикуете по адресу https://<USERNAME>.github.io
-# git push -f git@github.com:newet7/newet7.github.io.git master
+# git push -f git@github.com:newet7/interno-vue3.github.io.git main
 
 # если вы публикуете по адресу https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:newet7/Interno-vue3.git master:gh-pages
+git push -f git@github.com:newet7/interno-vue3.git main:gh-pages
 
 cd -
