@@ -1,14 +1,12 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
+import ProjectDetailsModule from "./modules/ProjectDetailsModule";
+import BlogModule from "./modules/BlogModule";
+import ProjectModule from "./modules/ProjectModule";
 
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
-  }
-})
+    ProjectDetailsModule,
+    BlogModule,
+    ProjectModule,
+  },
+});
